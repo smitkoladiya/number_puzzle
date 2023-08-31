@@ -137,7 +137,7 @@ class _number_puzzleState extends State<number_puzzle> {
                 children: [
                   InkWell(
                     onTap: () {
-                      if (temp == false) {
+                      if (temp == true) {
                         if (l[0] == "") {
                           l[0] = l[3];
                           l[3] = "";
